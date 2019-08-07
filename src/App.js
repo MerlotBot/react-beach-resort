@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms" component={Rooms} />
-        <Route exact path="/rooms/:id" component={SignleRoom} />
+        <Route exact path="/rooms/:slug" component={SignleRoom} />
         <Route component={Error} />
       </Switch>
     </React.Fragment>
